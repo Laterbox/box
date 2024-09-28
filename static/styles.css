@@ -1,0 +1,45 @@
+body {
+    background-color: #1a1a1a; /* Black background */
+    color: #ffffff; /* White text */
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: #ffd700; /* Gold */
+}
+
+form {
+    background-color: #333333; /* Darker black for the form */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #00ffff; /* Cyan border */
+    border-radius: 4px;
+    background-color: #222222; /* Dark input field */
+    color: #ffffff;
+}
+
+button {
+    background-color: #00ffff; /* Cyan button */
+    color: #000000; /* Black text */
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffd700; /* Gold on hover */
+}
